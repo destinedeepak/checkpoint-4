@@ -62,7 +62,6 @@ body{
     font-family: 'Raleway', sans-serif;
     line-height: 1.5;
     font-weight: 500;
-    padding-bottom: 500px;
 }
 html{
     font-size: 16px;
@@ -952,11 +951,15 @@ input::placeholder, textarea::placeholder{
 .blogs {
     padding: 2.5rem 0;
 }
+.each-blog {
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,0.2);
+    margin-bottom: 1.5rem;
+}
 .each-blog .h5-heading{
-    color: rgb(71,61,58);
+    color: rgb(76,66,63);
 } 
 .user, .user i{
-    color: rgb(131, 131, 131);
+    color: rgb(175,162,158);
     font-size: .9rem;
     font-weight: 500;
     margin: .4rem 0;
@@ -966,11 +969,21 @@ input::placeholder, textarea::placeholder{
     font-size: .75rem;
     color: rgb(207, 207, 207);
 }
-.each-blog .text{
+.blog-text {
+    padding: 1rem;
+}
+.blog-text .text{
     font-size: .9rem;
     color: rgb(71,61,58);
     margin: .5rem 0rem;  
 }
-0
+.btn-blog {
+    border-radius: 0;
+    padding:.35rem 1rem;
+    text-align: right;
+}
+.text-right {
+    text-align: right;   
+}
 
 
