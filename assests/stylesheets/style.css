@@ -724,6 +724,7 @@ a{
 .each-packages {
     box-shadow: 0rem .1rem .2rem rgba(0,0,0,0.2);
     border-radius: 4px;
+    overflow: hidden;
    }
 .each-packages .header{
     color: rgb(105, 105, 105);
