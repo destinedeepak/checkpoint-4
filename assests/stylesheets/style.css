@@ -980,7 +980,7 @@ input::placeholder, textarea::placeholder{
 
 /* blog styles  */
 /* section-heading */
-.heading{
+.blog-header{
     margin-top: 3.7rem;
     background: rgb(244,242,242);
     padding: 1rem 0;
@@ -1066,7 +1066,7 @@ input::placeholder, textarea::placeholder{
         max-width: 960px;
     }
     html{
-       font-size: 14px;
+       font-size: 12px;
     }
 }
 
@@ -1143,7 +1143,7 @@ input::placeholder, textarea::placeholder{
         padding-top: 7rem;
     }
     .nav-item {
-        margin-top: 1rem;
+        margin-top: 2rem;
         margin-right: 0;
     }
     .nav-item a {
@@ -1158,6 +1158,7 @@ input::placeholder, textarea::placeholder{
     }
     .deep-drop-down {
         width: 16rem;
+        left: 6rem;
     }
 
      /* about-us  */
@@ -1208,7 +1209,9 @@ input::placeholder, textarea::placeholder{
     padding: 0;
    }
     /* footer  */
-
+    .footer{
+        text-align: center;
+    }
     .footer-nav {
         margin: 0;
     }
@@ -1219,6 +1222,14 @@ input::placeholder, textarea::placeholder{
         right: 12px;
      }
    
+     /* blog med-screen styles  */
+
+     .blog-header{
+        margin-top: 6.2rem;
+        background: rgb(244,242,242);
+        padding: 1rem 0;
+        font-weight: 600;
+    }
 }
 
 
